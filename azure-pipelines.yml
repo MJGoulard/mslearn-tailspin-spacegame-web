@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'name: Default'
+  vmImage: 'name: marcelgoulard'
 
 variables:
   solution: '**/*.sln'
