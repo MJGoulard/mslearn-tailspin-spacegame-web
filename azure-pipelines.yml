@@ -7,7 +7,9 @@ trigger:
 - main
 
 pool:
-  vmImage: 'name: marcelgoulard'
+  name: Default
+  demands:
+  - agent.name -equals MGMAIN
 
 variables:
   solution: '**/*.sln'
